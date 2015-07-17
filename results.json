@@ -1,0 +1,223 @@
+{
+    "homePageClient": {
+        "clickPostJob": {
+            "event": "click",
+            "location": "home_page",
+            "sublocation": "post_job"
+        }
+    },
+    "postJob": {
+        "impressionJobTitlePage": {
+            "event": "impression",
+            "location": "job_post_title_page"
+        },
+        "impressionJobCategoryPage": {
+            "event": "impression",
+            "location": "job_post_category_page"
+        },
+        "clickJobCategory": {
+            "event": "click",
+            "location": "job_post_category_page",
+            "sublocation": "category"
+        },
+        "clickPaymentPreference": {
+            "event": "click",
+            "location": "payment_preference_page",
+            "data": [
+                {
+                    "type": null
+                }
+            ]
+        },
+        "impressionJobDurationPage": {
+            "event": "impression",
+            "location": "duration_page"
+        },
+        "clickJobDuration": {
+            "event": "click",
+            "location": "duration_page",
+            "sublocation": "duration"
+        },
+        "clickJobDurationBack": {
+            "event": "click",
+            "location": "duration_page",
+            "sublocation": "back"
+        },
+        "impressionExperienceLevel": {
+            "event": "impression",
+            "location": "experience_level_page"
+        },
+        "clickExperienceLevelPage": {
+            "event": "click",
+            "location": "experience_level_page",
+            "sublocation": "experience_level"
+        },
+        "impressionJobDescription": {
+            "event": "impression",
+            "location": "job_post_page"
+        },
+        "clickPostJob": {
+            "event": "click",
+            "location": "job_post_page",
+            "data": [
+                {
+                    "id": null
+                },
+                {
+                    "event_type": "opening"
+                },
+                {
+                    "isNew": false
+                }
+            ]
+        }
+    },
+    "jobPost": {
+        "clickNextJobTitlePage": {
+            "group": "jobPost",
+            "description": "Log clicks of \"Next\" from \"What is Job Title\" page",
+            "event": "click",
+            "locaton": "job_title_page",
+            "sublocation": "",
+            "data": "\"Next\""
+        },
+        "clickBackJobTitlePage": {
+            "group": "jobPost",
+            "description": "Log clicks of \"Back\" from \"What is Job Title\" page",
+            "event": "click",
+            "locaton": "job_title_page",
+            "sublocation": "",
+            "data": "\"Back\""
+        },
+        "impressionRecommendedCatgories": {
+            "group": "jobPost",
+            "description": "Log impression of \"Select the category\" Page with recommended Category",
+            "event": "impression",
+            "locaton": "job_category_page",
+            "sublocation": "",
+            "data": ""
+        },
+        "clickBackRecommendedCatgories": {
+            "group": "jobPost",
+            "description": "Log \"Back\" click in \"Select the category\" Page",
+            "event": "click",
+            "locaton": "job_category_page",
+            "sublocation": "",
+            "data": "\"Back\""
+        },
+        "impressionRecommendedSubCatgories": {
+            "group": "jobPost",
+            "description": "Log impression of \"Select the Sub-category\" Page",
+            "event": "impression",
+            "locaton": "job_subcategory_page",
+            "sublocation": "",
+            "data": ""
+        },
+        "clickRecomendedSubCategories": {
+            "group": "jobPost",
+            "description": "Log click of \"Select the Sub-category\" Page",
+            "event": "click",
+            "locaton": "job_subcategory_page",
+            "sublocation": "",
+            "data": "sub_category: SUB_CATEGORY_ID"
+        },
+        "impressionJobSkillsPage": {
+            "group": "jobPost",
+            "description": "Log impression of \"Select skills\" Page",
+            "event": "impression",
+            "locaton": "job_skills_page",
+            "sublocation": "",
+            "data": ""
+        },
+        "clickJobsSkillsPage": {
+            "group": "jobPost",
+            "description": "Log click of \"Select skills\" Page",
+            "event": "click",
+            "locaton": "job_skills_page",
+            "sublocation": "",
+            "data": "skill: SKILL_ID"
+        },
+        "clickBackSkillsPage": {
+            "group": "jobPost",
+            "description": "Log \"Back\" click on \"Select skills\" Page",
+            "event": "click",
+            "locaton": "job_skills_page",
+            "sublocation": "",
+            "data": "\"Back\""
+        },
+        "impressionJobOtherskillsPage": {
+            "group": "jobPost",
+            "description": "Log impression of \"Other skills\" Page",
+            "event": "impression",
+            "locaton": "job_otherskills_page",
+            "sublocation": "",
+            "data": ""
+        },
+        "clickJobOtherSkillsSearchResult": {
+            "group": "jobPost",
+            "description": "Log click of \"Other skills\" Search Results",
+            "event": "click",
+            "locaton": "job_otherskills_page",
+            "sublocation": "search_result_skills",
+            "data": "skill: SKILL_ID"
+        },
+        "clickBackOtherSkillsPage": {
+            "group": "jobPost",
+            "description": "Log \"Back\" click of \"Other skills\" Search Results",
+            "event": "click",
+            "locaton": "job_otherskills_page",
+            "sublocation": "",
+            "data": "\"Back\""
+        },
+        "impressionPaymentPreferencePage": {
+            "group": "jobPost",
+            "description": "Log impression of Payment Preference",
+            "event": "impression",
+            "locaton": "payment_preference_page",
+            "sublocation": "",
+            "data": ""
+        },
+        "clickBackPaymentPreferencePage": {
+            "group": "jobPost",
+            "description": "Log \"Back\" click on Payment Preference",
+            "event": "click",
+            "locaton": "payment_preference_page",
+            "sublocation": "",
+            "data": "\"Back\""
+        },
+        "impressionJobBudgetPage": {
+            "group": "jobPost",
+            "description": "Log impression of the \"Job Budget\" page",
+            "event": "impression",
+            "locaton": "job_budget_page",
+            "sublocation": "",
+            "data": ""
+        },
+        "clickNextJobBudgetPage": {
+            "group": "jobPost",
+            "description": "Log click of \"Next\" on the \"Job Budget\" page",
+            "event": "click",
+            "locaton": "job_budget_page",
+            "sublocation": "",
+            "data": ""
+        },
+        "clickBackJobPostPage": {
+            "group": "jobPost",
+            "description": "Log click of \"Back\" button",
+            "event": "click",
+            "locaton": "job_post_page",
+            "sublocation": "",
+            "data": "\"Back\""
+        }
+    },
+    "error": {
+        "errorNonSupportedPage": {
+            "group": "error",
+            "description": "Track Error pages for non-supported pages like Client searching for jobs",
+            "event": "impresssion",
+            "locaton": "error",
+            "sublocation": "",
+            "data": "page: STATE_NAME"
+        }
+    }
+}

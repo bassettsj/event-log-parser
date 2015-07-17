@@ -1,0 +1,19 @@
+group,key,description,event,locaton,sublocation,data
+Job Post,clickNextJobTitlePage,"Log clicks of ""Next"" from ""What is Job Title"" page",click,job_title_page,,"""Next"""
+Job Post,clickBackJobTitlePage,"Log clicks of ""Back"" from ""What is Job Title"" page",click,job_title_page,,"""Back"""
+Job Post,impressionRecommendedCatgories,"Log impression of ""Select the category"" Page with recommended Category",impression,job_category_page,,
+Job Post,clickBackRecommendedCatgories,"Log ""Back"" click in ""Select the category"" Page",click,job_category_page,,"""Back"""
+Job Post,impressionRecommendedSubCatgories,"Log impression of ""Select the Sub-category"" Page",impression,job_subcategory_page,,
+Job Post,clickRecomendedSubCategories,"Log click of ""Select the Sub-category"" Page",click,job_subcategory_page,,sub_category: SUB_CATEGORY_ID
+Job Post,impressionJobSkillsPage,"Log impression of ""Select skills"" Page",impression,job_skills_page,,
+Job Post,clickJobsSkillsPage,"Log click of ""Select skills"" Page",click,job_skills_page,,skill: SKILL_ID
+Job Post,clickBackSkillsPage,"Log ""Back"" click on ""Select skills"" Page",click,job_skills_page,,"""Back"""
+Job Post,impressionJobOtherskillsPage,"Log impression of ""Other skills"" Page",impression,job_otherskills_page,,
+Job Post,clickJobOtherSkillsSearchResult,"Log click of ""Other skills"" Search Results",click,job_otherskills_page,search_result_skills,skill: SKILL_ID
+Job Post,clickBackOtherSkillsPage,"Log ""Back"" click of ""Other skills"" Search Results",click,job_otherskills_page,,"""Back"""
+Job Post,impressionPaymentPreferencePage,Log impression of Payment Preference,impression,payment_preference_page,,
+Job Post,clickBackPaymentPreferencePage,"Log ""Back"" click on Payment Preference",click,payment_preference_page,,"""Back"""
+Job Post,impressionJobBudgetPage,"Log impression of the ""Job Budget"" page",impression,job_budget_page,,
+Job Post,clickNextJobBudgetPage,"Log click of ""Next"" on the ""Job Budget"" page",click,job_budget_page,,
+Job Post,clickBackJobPostPage,"Log click of ""Back"" button",click,job_post_page,,"""Back"""
+Error,errorNonSupportedPage,Track Error pages for non-supported pages like Client searching for jobs,impresssion,error,,page: STATE_NAME

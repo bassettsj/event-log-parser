@@ -1,0 +1,67 @@
+{
+    "homePageClient": {
+        "clickPostJob": {
+            "event": "click",
+            "location": "home_page",
+            "sublocation": "post_job"
+        }
+    },
+    "postJob": {
+        "impressionJobTitlePage": {
+            "event": "impression",
+            "location": "job_post_title_page"
+        },
+        "impressionJobCategoryPage": {
+            "event": "impression",
+            "location": "job_post_category_page"
+        },
+        "clickJobCategory": {
+            "event": "click",
+            "location": "job_post_category_page",
+            "sublocation": "category"
+        },
+        "clickPaymentPreference": {
+            "event": "click",
+            "location": "payment_preference_page",
+            "data": [
+                {"type": null}
+            ]
+        },
+        "impressionJobDurationPage": {
+            "event": "impression",
+            "location": "duration_page"
+        },
+        "clickJobDuration": {
+            "event": "click",
+            "location": "duration_page",
+            "sublocation": "duration"
+        },
+        "clickJobDurationBack": {
+            "event": "click",
+            "location": "duration_page",
+            "sublocation": "back"
+        },
+        "impressionExperienceLevel": {
+            "event": "impression",
+            "location": "experience_level_page"
+        },
+        "clickExperienceLevelPage": {
+            "event": "click",
+            "location": "experience_level_page",
+            "sublocation": "experience_level"
+        },
+        "impressionJobDescription": {
+            "event": "impression",
+            "location": "job_post_page"
+        },
+        "clickPostJob": {
+            "event": "click",
+            "location": "job_post_page",
+            "data": [
+                {"id": null},
+                {"event_type": "opening"},
+                {"isNew": false}
+            ]
+        }
+    }
+}
